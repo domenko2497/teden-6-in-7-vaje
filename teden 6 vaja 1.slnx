@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace TEDEN_6_VAJA_1
+{
+    internal class OSEBA
+    {
+        public string ime;
+        public string priimek;
+        public void PredstaviSe()
+        {
+            Console.WriteLine("Bok moje ime je " + ime + " in pišem se " + priimek);
+        }
+    }
+}
